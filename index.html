@@ -6,28 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IronFit</title>
-
-    <!--
-        FAVICON
-        STYLE
-        FONT
-    -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto+Mono:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 
 
 <body>
-    <header>
-        <img src="./img/logo-ironfit.png" alt="IronFit">
-        <h1>IronFit</h1>
-        <ul>
-            <li><a href="#home" title="Pagina Principal">Home</a></li>
-            <li><a href="#equipamentos" title="Os equipamentos modernos da IronFit">Home</a></li>
-            <li><a href="#treinos" title="Os mais elaborados treinos">Treinos</a></li>
-
-            <li><a href="#treinos"
-                    title="Entre em contato com a gente por um de nossos canais de comunicação">Contato</a></li>
-        </ul>
+    <header class="main_header container">
+        <div class="content">
+            <img class="main_logo" src="./img/logo-ironfit.png" alt="IronFit">
+            <h1 class="fontzero">IronFit</h1>
+            <ul class="main_menu">
+                <li><a class="especial" href="#home" title="Pagina Principal">Home</a></li>
+                <li><a href="#equipamentos" title="Os equipamentos modernos da IronFit">Equipamentos</a></li>
+                <li><a href="#treinos" title="Os mais elaborados treinos">Treinos</a></li>
+                <li><a href="#treinos"
+                        title="Entre em contato com a gente por um de nossos canais de comunicação">Contato</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
     </header>
     <!--Fim Cabeçalho-->
 
@@ -191,29 +194,29 @@
         <!-- Fim seção de treinos -->
 
         <article>
-            
-                <header>
-                    <h1>ENTRE EM CONTATO</h1>
-                    <P class="tagline">Preencha o formulário que retornaremos o contato.</P>
-                </header>
-                <form action="" method="post">
-                    <label>
-                        <span>Nome</span>
-                        <input type="text" name="nome" title="Nome" placeholder="Nome" required>
-                    </label>
-                    <label>
-                        <span>E-Mail</span>
-                        <input type="email" name="email" title="E-Mail" placeholder="E-Mail" required>
-                    </label>
-                    <label>
-                        <span>Mensagem</span>
-                        <textarea rows="3" name="mensagem" placeholder="Mensagem"></textarea>
-                    </label>
-                    <img class="form_load" src="img/ajax-loader.gif" alt="[Aguarde, Carregando!]" title="Aguarde, carregando!">
-                    <button>Enviar contato</button>
-                </form>
-                
-            
+
+            <header>
+                <h1>ENTRE EM CONTATO</h1>
+                <P class="tagline">Preencha o formulário que retornaremos o contato.</P>
+            </header>
+            <form action="" method="post">
+                <label>
+                    <span>Nome</span>
+                    <input type="text" name="nome" title="Nome" placeholder="Nome" required>
+                </label>
+                <label>
+                    <span>E-Mail</span>
+                    <input type="email" name="email" title="E-Mail" placeholder="E-Mail" required>
+                </label>
+                <label>
+                    <span>Mensagem</span>
+                    <textarea rows="3" name="mensagem" placeholder="Mensagem"></textarea>
+                </label>
+                <img src="img/ajax-loader.gif" alt="[Aguarde, Carregando!]" title="Aguarde, carregando!">
+                <button>Enviar contato</button>
+            </form>
+
+
         </article>
         <!-- Fim Contato -->
     </main>
