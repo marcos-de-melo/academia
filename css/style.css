@@ -423,3 +423,56 @@ iframe {
    margin-left:20px;
    /*display:none;	*/
    }
+
+   /*FOOTER*/
+
+.main_footer{
+	background: #181818;
+	text-align:center;
+	color:#CCC;
+	border-bottom-width: 10px;
+border-bottom-color:#fcb823;
+border-bottom-style: solid; 
+		
+}
+.main_footer .ftcontent{
+	background:#050D49;
+	padding:30px;	
+}
+
+
+.main_footer .title{
+	font-weight:bold;
+	font-size:2em;
+		
+}
+
+.main_footer .subtitle{
+	font-weight:bold;
+	font-size:1.4em;
+	text-transform:uppercase;
+		
+}
+.main_footer_social{
+	display:block;
+	margin-top:20px;	
+}
+.main_footer_social li{
+display:inline-block;
+margin:0 5px;	
+}
+
+.main_footer_social a{
+color:#fff;	
+test-transform:uppercase;
+font-size:0.8em;
+}
+
+.main_footer_social a:hover{
+	text-decoration:underline;
+}
+.menu_navegacao{
+display:none;
+text-transform:uppercase;	
+color:#FFFFFF;
+}
