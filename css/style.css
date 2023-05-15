@@ -345,3 +345,81 @@ iframe {
     font-size: 0.8em;
 
 }
+
+/* CONTATO*/
+
+
+.contato{
+    background:#DFDFDF;	
+   }
+   .contato header{
+   float:left;
+   width:30%;
+   min-width:300px;
+   color:#555;		
+   }
+   .contato header h1{
+   font-size:2em;
+   text-transform:uppercase;
+   font-weight:bold;
+   color:#888;
+   margin-bottom:20px;	
+   }
+   
+   
+   .contato_form{
+   float:right;
+   width:70%;
+   min-width:300px;
+   padding-left:5%;	
+   }
+   .contato_form label{
+   display:block;
+   width:100%;
+   margin-bottom:20px;	
+   }
+   
+   .contato_form span{
+       font-size:0.7em;
+       display:block;
+       text-transform:uppercase;
+       font-weight:600;
+       margin-bottom:10px;	
+   }
+   
+    .contato_form .medium{
+       float:left;
+       width: 48%;
+    }
+    .contato_form .medium:first-of-type{
+       margin-right:4%; 
+    }
+   .contato_form input,
+   .contato_form textarea{
+       width:100%;	
+       border:none;
+       background:#ccc;
+       padding:10px;
+       font-family:'Arial',sans-serif;
+   }
+   .contato_form .btn{
+       border:none;
+       background:#fcb823;
+       padding:15px 25px;
+       text-transform:uppercase;
+       font-weight:600;
+       font-size:0.875em;
+       float:right;
+       margin-top:10px;
+       cursor:pointer;	
+   }
+   
+   .contato_form .btn:hover{
+       background:#FFCC99;	
+   }
+   .form_load{
+   float:right;
+   margin-top:25px;
+   margin-left:20px;
+   /*display:none;	*/
+   }

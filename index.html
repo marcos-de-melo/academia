@@ -200,18 +200,18 @@
         </section>
            <!-- Fim seção de treinos -->
 
-        <article>
-
+           <article class="container contato">
+            <div class="content">
             <header>
                 <h1>ENTRE EM CONTATO</h1>
                 <P class="tagline">Preencha o formulário que retornaremos o contato.</P>
             </header>
-            <form action="" method="post">
-                <label>
+            <form class="contato_form" action="" method="post">
+                <label class="medium">
                     <span>Nome</span>
                     <input type="text" name="nome" title="Nome" placeholder="Nome" required>
                 </label>
-                <label>
+                <label  class="medium">
                     <span>E-Mail</span>
                     <input type="email" name="email" title="E-Mail" placeholder="E-Mail" required>
                 </label>
@@ -219,12 +219,13 @@
                     <span>Mensagem</span>
                     <textarea rows="3" name="mensagem" placeholder="Mensagem"></textarea>
                 </label>
-                <img src="img/ajax-loader.gif" alt="[Aguarde, Carregando!]" title="Aguarde, carregando!">
-                <button>Enviar contato</button>
+                <img class="form_load" src="img/ajax-loader.gif" alt="[Aguarde, Carregando!]" title="Aguarde, carregando!">
+                <button class="btn" type="btn">Enviar contato</button>
             </form>
-
-
+            <div class="clear"></div>
+        </div>
         </article>
+        
         <!-- Fim Contato -->
     </main>
     <footer>
